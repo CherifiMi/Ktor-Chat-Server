@@ -10,7 +10,7 @@ fun Application.configureRouting() {
 
     routing {
         get("/") {
-            call.respond(database.find().toList())
+            //call.respond()
             //database.insertOne(Hi(string = "hillo")).wasAcknowledged()
         }
     }
