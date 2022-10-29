@@ -1,6 +1,6 @@
 package com.example
 
-import com.example.models.Message
+import com.example.data.models.Message
 import com.example.plugins.*
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
