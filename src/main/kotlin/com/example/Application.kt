@@ -12,7 +12,7 @@ val client = KMongo
     .createClient(
         "mongodb+srv://mito:cherifi2003@mitocluster.bpzkl.mongodb.net/?retryWrites=true&w=majority"
     ).coroutine
-val database = client.getDatabase("chat").getCollection<Message>("chat1")
+val database = client.getDatabase("chat")
 
 
 fun main() {
