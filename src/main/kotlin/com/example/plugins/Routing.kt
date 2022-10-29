@@ -1,13 +1,10 @@
 package com.example.plugins
 
-import com.example.Hi
 import com.example.database
-import io.ktor.server.routing.*
-import io.ktor.http.*
+import com.example.models.Hi
 import io.ktor.server.application.*
 import io.ktor.server.response.*
-import io.ktor.server.request.*
-import org.litote.kmongo.json
+import io.ktor.server.routing.*
 
 fun Application.configureRouting() {
 
