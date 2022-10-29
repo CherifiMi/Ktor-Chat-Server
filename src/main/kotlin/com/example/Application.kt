@@ -1,5 +1,6 @@
 package com.example
 
+import com.example.models.Hi
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
@@ -9,13 +10,6 @@ import org.bson.codecs.pojo.annotations.BsonId
 import org.bson.types.ObjectId
 import org.litote.kmongo.coroutine.coroutine
 import org.litote.kmongo.reactivestreams.KMongo
-
-@Serializable
-data class Hi(
-    @BsonId
-    val id: String= ObjectId().toString(),
-    val string: String
-)
 
 val client = KMongo
     .createClient(
