@@ -1,0 +1,1 @@
+web: ./build/install/com.example.ktor-chat-server/bin/com.example.ktor-chat-server

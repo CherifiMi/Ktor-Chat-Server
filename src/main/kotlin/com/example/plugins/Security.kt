@@ -19,5 +19,4 @@ fun Application.configureSecurity() {
             call.sessions.set(ChatSession(username, generateNonce()))
         }
     }
-
 }
